@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+.wrap {
+  min-width: 300px;
+  max-width: 500px;
+  margin: 10px;
+}
+form {
+  box-shadow: 0 0 3px grey;
+  border-top: 4px solid #536dfe;
+  width: 100%;
+  padding: 27px;
+  overflow: hidden;
+}
+.name-formulario,
+.email-formulario {
+  border-radius: 3px;
+  border: 1px solid #536dfe;
+  margin-right: 0px;
+  margin-bottom: 27px;
+  width: 100%;
+  height: 50px;
+  padding: 1px 15px;
+  font-size: 1em;
+  color: #141938;
+}
+textarea {
+  padding: 15px 15px;
+  margin-bottom: 27px;
+  border-radius: 3px;
+  border: 1px solid #536dfe;
+  min-width: 100%;
+  max-width: 100%;
+  background-attachment: grey;
+  min-height: 150px;
+  max-height: 350px;
+  color: #141938;
+  font-family: Arial;
+  font-size: 1em;
+}
+form input[type="text"]:focus,
+form textarea:focus {
+  border: 2px solid #3f51b5;
+  padding: 15px 15px;
+  outline: none;
+}
+input[type="submit"] {
+  float: right;
+}
+.alert_error {
+  width: 100%;
+  background-color: #f2dede;
+  border-radius: 3px;
+  border: 1px solid #a94442;
+  margin-bottom: 27px;
+  padding: 15px;
+}
+.alert_success {
+  border-radius: 3px;
+  background-color: #4caf50;
+  margin-bottom: 27px;
+  padding: 15px;
+}
+.btn {
+  padding: 15px;
+  border-radius: 3px;
+  background-color: #f55615;
+  color: #e1e9fa;
+}
+.btn:hover {
+  background-color: #e64a19;
+}
